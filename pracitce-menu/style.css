@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .menu {
@@ -26,6 +26,7 @@ body {
 .menu ul li {
   position: relative;
   padding: 5% 30px;
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 .menu ul li:hover {
@@ -100,7 +101,7 @@ body {
 }
 
 .drop-down ul li .drop-down-under ul li{
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.03);
 }
 
 .drop-down ul li .drop-down-under ul li:hover{
@@ -127,7 +128,7 @@ body {
 }
 
 .drop-down-under ul li .drop-down-under-under ul li{
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.03);
 }
 
 .drop-down-under ul li:hover .drop-down-under-under ul li a{
