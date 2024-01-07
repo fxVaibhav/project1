@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  background-color: red;
+}
+
+.menu {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  height: 25%;
+}
+
+.menu h1 span {
+  color: greenyellow;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+}
+
+.menu ul li {
+  position: relative;
+  padding: 5% 30px;
+}
+
+.menu ul li:hover {
+  background-color: white;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu ul li:hover a {
+  color: black;
+}
+
+.plus {
+  position: relative;
+  top: 2px;
+  padding-left: 0.2rem;
+  left: 12px;
+}
+
+.drop-down {
+  display: none;
+}
+
+.menu ul li:hover .drop-down {
+  display: block;
+  position: absolute;
+  top: 100%;
+  background-color: black;
+  left: 0;
+}
+
+.menu ul li:hover .drop-down ul {
+  display: block;
+  padding: 0;
+}
+
+.menu ul .drop-down ul {
+  background-color: white;
+  color: black;
+}
+
+.drop-down ul li:hover {
+  background-color: black;
+}
+
+.drop-down ul li:hover a {
+  color: white;
+}
+
+.menu ul li:hover .drop-down ul li {
+  padding: 30px;
+  width: 72px;
+}
+
+.drop-down ul li .drop-down-plus {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.drop-down-under {
+  display: none;
+}
+
+.drop-down ul li:hover .drop-down-under{
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 132px;
+}
+
+.drop-down ul li .drop-down-under ul li{
+    background-color: white;
+}
+
+.drop-down ul li .drop-down-under ul li:hover{
+    background-color: black;
+}
+
+.drop-down ul li .drop-down-under ul li a{
+    color: black;
+}
+
+.drop-down ul li .drop-down-under ul li:hover a{
+    color: white;
+}
+
+.drop-down-under .drop-down-under-under{
+    display: none;
+}
+
+.drop-down-under ul li:hover .drop-down-under-under{
+    display: block;
+    position: absolute;
+    left: 132px;
+    top: 0px;
+}
+
+.drop-down-under ul li .drop-down-under-under ul li{
+    background-color: white;
+}
+
+.drop-down-under ul li:hover .drop-down-under-under ul li a{
+    color: black;
+}
+
+.drop-down-under ul li:hover .drop-down-under-under ul li:hover a{
+    color: white;
+}
+
+.drop-down-plus-2{
+    position: relative;
+    left: 30px;
+}
+
+.drop-down-plus-2_1{
+    position: relative;
+    left: 50px;
+}
