@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+}
+
+.menu-bar {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 5%;
+  /* width: 100%; */
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+}
+
+.logo span {
+  color: rgb(0, 255, 76);
+}
+
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu-bar ul li {
+  padding: 29px 30px;
+  /* margin-top: 20px; */
+  position: relative;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+
+  transition: all 0.3s;
+}
+
+.menu-bar ul li a:hover {
+  color: rgb(0, 255, 76);
+}
+
+.menu-bar ul li:hover {
+  background-color: rgba(47, 47, 47, 0.674);
+}
+
+.drop-down-page {
+  display: none;
+  top: 10px;
+}
+
+.menu-bar ul li:hover .drop-down-page {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: black;
+}
+
+.menu-bar ul li:hover .drop-down-page ul {
+  display: block;
+  padding: 0;
+}
+
+.menu-bar ul li:hover .drop-down-page ul li {
+  width: 94px;
+  padding: 15px;
+  margin-top: 0px;
+}
+
+.drop-down-page .fas {
+  margin-left: 32px;
+}
+
+.drop-down-page .fas1 {
+  margin-left: 18px;
+}
+
+.drop-down-page .fas2 {
+  margin-left: 5px;
+}
+
+.drop-down-page-1 {
+  display: none;
+}
+
+.drop-down-page ul li:hover .drop-down-page-1 {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 124px;
+  background-color: black;
+}
+
+.hero {
+  height: 89vh;
+  background-image: url(./bgimg.jpg);
+  background-position: center;
+  background-size: cover;
+}
